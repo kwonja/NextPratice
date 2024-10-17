@@ -22,6 +22,7 @@ const images = [
 ];
 
 export default function ImageSlideshow() {
+  console.log("execute")
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
